@@ -16,3 +16,16 @@ public:
         return -1;
     }
 };
+
+/*
+unordered_set<int> s;
+
+for(int x : nums)
+{
+    if(s.find(x) != s.end())
+    {
+        return x;   // duplicate found
+    }
+
+    s.insert(x);
+} */
